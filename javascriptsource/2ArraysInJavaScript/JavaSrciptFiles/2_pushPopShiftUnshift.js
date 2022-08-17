@@ -3,7 +3,8 @@ let colors = ['red','gree','blue','yellow'];
 console.log(colors);
 colors.push('purpule');
 console.log(colors);
-// pop is not only delete the element it also return it.
+console.log('\npop is not only delete the element it also return it.\n\n');
+
 let popedCollector = colors.pop()
 console.log(colors);
 console.log(popedCollector);

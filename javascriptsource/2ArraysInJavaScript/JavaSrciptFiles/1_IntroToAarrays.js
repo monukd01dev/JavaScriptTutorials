@@ -12,7 +12,8 @@ console.log(friends);
 let number=[1,2,3,4,5,6,7];
 console.log(number)
 
-// in other programming languages array is defined as homogenious collection of ordered elements but in JavaScript it is heterogenious collection of elements
+// in other programming languages array is defined as homogenious collection of ordered elements but in JavaScript it is heterogenious ordered collection of elements
+console.log('<----------2nd Output------------>\n\n');
 
 let mixed=[1,2,"string",null,undefined,];
 console.log(typeof mixed)

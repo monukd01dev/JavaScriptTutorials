@@ -17,7 +17,7 @@ console.log(firstName);
 // it says that you cannot declare a const without a value.
 
 console.log(`-----------------------NuLL-------------------------`);
-// Null means Null 0 means 0 but null is null
+// Null means Null, 0 means 0 but null is null
 let firstName2 = null;
 console.log(firstName2,typeof firstName2, typeof null);
 // there is a bug in js when you output the typeof null it will output as 'object' instead of null
@@ -43,3 +43,4 @@ console.log(myNumber);
 // to resolve this problem we have to make myNumber2 an BigInt
 let myNumber2 = 12n;
 console.log(myNumber + myNumber2);
+

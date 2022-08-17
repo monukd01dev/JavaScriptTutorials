@@ -22,3 +22,8 @@ const obj ={
 
 }
 console.log(obj);
+
+//delete form here 
+for(key in obj){
+    console.log(key, ":", obj[key])
+}

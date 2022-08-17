@@ -1,4 +1,7 @@
 // difference between dot and bracket notaion
+
+// suppose you want to name the skills key as student skills but the problem is that you can't add space between the names see from line 11
+
 const student ={
     name: "Manish Kumar",
     id: 200501163,
@@ -8,9 +11,8 @@ const student ={
     // student skills: ['Html','Css','JavaScript','Java'] // this will throw an error
     //so we can write like that
     "student skills" : ['Html','Css','JavaScript','Java']
-    //but read line no 15
+    //but read line no 17
 };
-// suppose you want to name the skills key as student skills but the problem is that you can't add space between the names see from line 8
 
 //let's try to access student skills
 // console.log(student.student skills);
@@ -30,4 +32,4 @@ student[key]= 31;
 console.log(student.rollno);//
 console.log(student["rollno"]);// 
 console.log(student);
-// both of the declaration in line 25 and 27 both created a new key value pair with the name of key
+// both of the declaration in line 27 and 29 both created a new key value pair with the name of key

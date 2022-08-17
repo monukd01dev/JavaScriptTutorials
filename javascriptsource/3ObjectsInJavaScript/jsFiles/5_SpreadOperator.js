@@ -6,7 +6,7 @@ const num =98765432n;
 // const newArray = [...array1,...array2,7,8,9];
 // const newArray = [..."abcdefghijklmnopqrstuvwxyz"]
 // const newArray = [...""+num];
-const newArray = [..."123456"];
+const newArray = [..."123456"]; //you cannot spread numbers
 console.log(newArray);
 
 console.log("\n<------------Spread Operator in objects------------>\n");
@@ -24,7 +24,7 @@ const obj2 = {
 
 // const newObj = { ...obj1,...obj2};
 // const newObj = { ...obj1,...obj2, addingANewKeY:"youCanDoLikeThis"};
-// const newObj = {..."indexBecameKeyAndElementsBecameValueHere"};
+// const newObj = {..."indexBecameKeyAndElementsBecameValueHere"};//here we have spread array in objects
 const newObj = {...["item1","item2"]}//work same as above
 console.log(newObj);
 

@@ -11,3 +11,4 @@ for(user of users){
     console.log(user.userId , user.firstName);
 
 }
+console.log(users[1].firstName);

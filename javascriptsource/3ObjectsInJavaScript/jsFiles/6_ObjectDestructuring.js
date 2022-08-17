@@ -10,6 +10,6 @@ const student = {
 // let {name,rollno} = student;
 // console.log(name,rollno);
 
-let {name:naam,rollno:number, ...clgDetail} = student;
+let {name:naam,rollno:number, ...clgDetail} = student;//you can't skip like array destructuring here
 console.log(naam,number);
 console.log(clgDetail);

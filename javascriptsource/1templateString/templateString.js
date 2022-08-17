@@ -1,12 +1,12 @@
 "use strict";
 /*
-    Primitive datatypes
-    -> string -
+    Primitive datatypes (7)
+    -> string 
     -> undefined
     -> null
     -> boolean
     -> symbol
-    -> number -
+    -> number 
     -> BigInt
 
     Non-primitive datatypes
@@ -20,17 +20,17 @@ console.log ("           first output        ");
 
     let age = 19;
     let myName = "monukdo1dev";
-    // let result = true;
+    let result = true;
     console.log( typeof age );
     console.log( typeof myName);
-    // console.log(result);
+    console.log(typeof result);
     console.log ("           second output        ");
     // 2. convert number to string.
     
     // if you'll have to use this trick, you have to add an empty string with your number like this 19 + ""
     // example
     console.log(typeof age);
-    age += ""; //this will turn 22 -> "22"
+    age += ""; //this will turn 22 -> "22" //this type of addition called Augmented Addition
     console.log(typeof age);
     
     console.log ("           third output        ");
@@ -50,7 +50,7 @@ console.log ("           first output        ");
 
 let myAge = 19;
 let myNaam = "Jim Hopkins";
-// I have to output like this 
+// I have to output above information like this 
 // Myself Jim Hopkins and my age is 19
 // we have two ways hardcode or using string templateing
 
@@ -60,4 +60,4 @@ let myNaam = "Jim Hopkins";
 // using string templating
     output = `Myself ${myNaam} and my age is ${myAge}.`;
     console.log(output);
-    
+// One thing that you have to rember here is that don't forget use backticks `` don't wrap your string with "" and ''

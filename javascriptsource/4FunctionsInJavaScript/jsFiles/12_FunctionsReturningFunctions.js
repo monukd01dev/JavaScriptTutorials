@@ -14,4 +14,4 @@ function myFunc(){
 
 const jack = myFunc();
 // console.log(ans);
-console.log(jack());
+console.log(jack);

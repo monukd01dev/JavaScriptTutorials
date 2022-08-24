@@ -1,6 +1,6 @@
 // splice method
 // mutate the array
-// splice(start , delete , insert)
+// splice(start , delete(specify the number of item to be deleted) , insert)
 
 const myArray = ['item1','item2','item3'];
 

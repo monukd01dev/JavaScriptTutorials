@@ -6,7 +6,7 @@
 {
     //this is a block, a block is defined by the curly braces
     const myName = "Monu";
-    let listerCareFully = "If you try to access me out of this block I'll give you an error";
+    let listenCareFully = "If you try to access me out of this block I'll give you an error";
     console.log(myName);
     
 }

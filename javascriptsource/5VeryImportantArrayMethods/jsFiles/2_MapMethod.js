@@ -10,10 +10,11 @@ const numbers = [2,5,7,4,6,8];
 // const newArray = numbers.map((number,index)=>number*index);
 // console.log(newArray);
 
-// but what will happen if you not return anything it will return undefined
+// but what will happen if you not return anything 
 const newArray = numbers.map((number,index)=>console.log(number*index));
 
 console.log(newArray);
+// it will return an array with all elements as undefined
 
 // that's why it is crurical to return 
 

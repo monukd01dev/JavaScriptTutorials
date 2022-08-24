@@ -20,6 +20,9 @@
 //     //  return num%2===0 ? true : false ;
 //     return num%2===0 ;
 // }
+
+// when there is only one parameter we can remove bracets and you can also return keyword if there is only 1 line to return
+
 const isEven = num => num%2===0 ;
     //  return num%2===0 ? true : false ;
     

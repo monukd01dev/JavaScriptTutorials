@@ -22,5 +22,6 @@ const users =[
 
 
 const searchResult = users.find(user=>user.userId===4);
+console.log(Array.isArray(searchResult))
 console.log(searchResult);
 

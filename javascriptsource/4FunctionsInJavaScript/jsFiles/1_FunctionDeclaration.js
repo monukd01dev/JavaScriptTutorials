@@ -10,7 +10,7 @@
 // 6. Not a reluctant (basical a function call another fucntion )
 // 7. Offcourse it has a name.
 
-// Now its time to make our hero but before we have to create a work or situation for our hero so he can work on it basically create a NYC so he can destroy it XD
+// Now its time to make our hero but before that we have to create a work or situation for our hero so he can work on it basically create a NYC so he can destroy it XD
 // situation is : where ever you pass a name to a function it have to print that name with saying happy birthday name. Like if you pass monu it gives you happy birthday monu.
 
 function happyBirthday (name){

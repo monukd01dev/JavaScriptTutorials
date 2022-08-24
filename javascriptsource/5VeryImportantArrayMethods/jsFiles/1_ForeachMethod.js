@@ -42,7 +42,7 @@ const users = [
 
 users.forEach((user)=>console.log(user.firstName))
 
-// now thing is that you can use for of loop for that but why we use forEach method because for of loop is newer than the method and so many coders used method do this that's why learning this is important
+// now thing is that you can use for of loop for that but why we use forEach method because for of loop is newer than the method and so many coders have used this method to do these types of tasks that's why learning this is important
 
 for( let user of users)
 console.log(user.firstName)

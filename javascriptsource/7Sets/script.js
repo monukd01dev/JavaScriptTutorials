@@ -9,7 +9,7 @@ const numbers = new Set([1,2,4,5,3,5])
 numbers.add(6)
 console.log(numbers);
 
-console.log(numbers[1]);
+console.log(numbers[1], "it shows undefined because of no index based access");
 
 // adding values in empty set
 const array = ['i','am','array']

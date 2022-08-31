@@ -7,6 +7,7 @@ const obj = {
 }
 
 // const obj2 = Object.assign(obj);//wrong way
+// const obj2 = {...obj};
 const obj2 = Object.assign({},obj);
 obj["key3"]= 'value3';
 console.log(obj);

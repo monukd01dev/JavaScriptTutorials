@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/nCbcwHk/My-project-2.png" style="width:100%;"></img>
+
 <div style="display: flex; align-items: center;">
     <img src="https://img.shields.io/badge/STATUS%20%7C%20working-green?style=flat" alt="Status: working" />
     <a href="https://twitter.com/monukd01dev" target="_blank"><img src="https://img.shields.io/twitter/follow/monukd01dev?logo=twitter&style=for-the-badge" alt="monukd01dev" /></a>
@@ -9,7 +9,6 @@
 # JavaScript Beginning to Mastery Syllabus
 
 - JavaScript vs EcmaScript
-- Install vscode and run first program
 
 ## Basics of Programming in JavaScript
 

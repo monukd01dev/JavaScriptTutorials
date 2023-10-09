@@ -44,3 +44,10 @@ console.log(myNumber);
 let myNumber2 = 12n;
 console.log(myNumber + myNumber2);
 
+let year;
+console.log(year, typeof year,year+1,year=+1,typeof year);
+
+let mixed=['monukd',20,undefined,null,NaN];
+
+// console.log(mixed.push(2004));// return the index+1 where it add the element
+console.log(typeof mixed.pop())//

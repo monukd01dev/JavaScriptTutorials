@@ -30,14 +30,19 @@ console.log ("           first output        ");
     // if you'll have to use this trick, you have to add an empty string with your number like this 19 + ""
     // example
     console.log(typeof age);
-    age += ""; //this will turn 22 -> "22" //this type of addition called Augmented Addition
+    // age += ""; //this will turn 22 -> "22" //this type of addition called Augmented Addition
+    //is toString change the type
+    age.toString();//no it will return the String not change the acutal number datatype
+    console.log(typeof age);
+    age+= "";
     console.log(typeof age);
     
     console.log ("           third output        ");
 // 3. convert string to number.
 
 // to convert a string to  a number you have to put + infront of a string like this +"19"
-    let variable = +"22n"
+    let variable = +"22n";
+    // let variable =22n;
     console.log(typeof variable);
 
     console.log ("           fourth output        ");    

@@ -1,4 +1,5 @@
 "use strict";
+//new codes with example are added to JS_2023 branch
 // console.log("hellow world 1");
 
 let myName = "Jack_King";

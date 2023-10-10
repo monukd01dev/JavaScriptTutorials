@@ -16,6 +16,10 @@ console.log(firstName);
 // Uncaught SyntaxError: Missing initializer in const declaration
 // it says that you cannot declare a const without a value.
 
+//but we can also do that
+const fullName = undefined;
+console.log(fullName+1);
+
 console.log(`-----------------------NuLL-------------------------`);
 // Null means Null, 0 means 0 but null is null
 let firstName2 = null;

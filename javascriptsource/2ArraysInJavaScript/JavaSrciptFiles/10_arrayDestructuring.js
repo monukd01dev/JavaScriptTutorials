@@ -35,3 +35,10 @@ let [ var1,var2, ...myNewArray]=myArray;
 console.log(var1);
 console.log(var2);
 console.log(myNewArray);
+
+
+//creating undefiend constant in js using array destructuring
+
+const n1 = NaN;
+
+console.log(n1)
